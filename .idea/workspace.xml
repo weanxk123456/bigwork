@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e5689564-8f33-4b26-8573-4966dcc92aab" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/stylegan2-ada-pytorch-main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Loss.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calc_metrics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset_tool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/cifar10.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dnnlib/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dnnlib/util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker_run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/dataset-tool-help.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/license.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/stylegan2-ada-teaser-1024x252.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/stylegan2-ada-training-curves.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/train-help.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/legacy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metrics/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metrics/frechet_inception_distance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metrics/inception_score.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metrics/kernel_inception_distance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metrics/metric_main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metrics/metric_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metrics/perceptual_path_length.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/metrics/precision_recall.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/seed0000.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/seed0001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/seed0002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/seed0003.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/seed0004.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/seed0005.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/seed0085.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/seed0265.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/seed0297.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/seed0849.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projector.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style_mixing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/torch_utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/torch_utils/custom_ops.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/torch_utils/misc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/torch_utils/ops/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/torch_utils/ops/bias_act.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/torch_utils/ops/bias_act.cu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/torch_utils/ops/bias_act.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/torch_utils/ops/bias_act.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/torch_utils/ops/conv2d_gradfix.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/torch_utils/ops/conv2d_resample.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/torch_utils/ops/fma.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/torch_utils/ops/grid_sample_gradfix.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/torch_utils/ops/upfirdn2d.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/torch_utils/ops/upfirdn2d.cu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/torch_utils/ops/upfirdn2d.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/torch_utils/ops/upfirdn2d.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/torch_utils/persistence.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/torch_utils/training_stats.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00003-cifar10-subset1000-cifar-kimg100-batch1/fakes000000.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00003-cifar10-subset1000-cifar-kimg100-batch1/fakes_init.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00003-cifar10-subset1000-cifar-kimg100-batch1/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00003-cifar10-subset1000-cifar-kimg100-batch1/metric-fid50k_full.jsonl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00003-cifar10-subset1000-cifar-kimg100-batch1/network-snapshot-000000.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00003-cifar10-subset1000-cifar-kimg100-batch1/reals.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00003-cifar10-subset1000-cifar-kimg100-batch1/stats.jsonl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00003-cifar10-subset1000-cifar-kimg100-batch1/training_options.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00004-cifar10-subset100-cifar-kimg10-batch1/fakes000000.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00004-cifar10-subset100-cifar-kimg10-batch1/fakes000010.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00004-cifar10-subset100-cifar-kimg10-batch1/fakes_init.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00004-cifar10-subset100-cifar-kimg10-batch1/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00004-cifar10-subset100-cifar-kimg10-batch1/metric-fid50k_full.jsonl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00004-cifar10-subset100-cifar-kimg10-batch1/network-snapshot-000000.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00004-cifar10-subset100-cifar-kimg10-batch1/network-snapshot-000010.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00004-cifar10-subset100-cifar-kimg10-batch1/reals.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00004-cifar10-subset100-cifar-kimg10-batch1/stats.jsonl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00004-cifar10-subset100-cifar-kimg10-batch1/training_options.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00005-cifar10-subset100-cifar-kimg10-batch2/fakes000000.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00005-cifar10-subset100-cifar-kimg10-batch2/fakes000010.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00005-cifar10-subset100-cifar-kimg10-batch2/fakes_init.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00005-cifar10-subset100-cifar-kimg10-batch2/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00005-cifar10-subset100-cifar-kimg10-batch2/metric-fid50k_full.jsonl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00005-cifar10-subset100-cifar-kimg10-batch2/network-snapshot-000000.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00005-cifar10-subset100-cifar-kimg10-batch2/network-snapshot-000010.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00005-cifar10-subset100-cifar-kimg10-batch2/reals.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00005-cifar10-subset100-cifar-kimg10-batch2/stats.jsonl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00005-cifar10-subset100-cifar-kimg10-batch2/training_options.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00006-cifar10-subset100-cifar-kimg10-batch4/fakes000000.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00006-cifar10-subset100-cifar-kimg10-batch4/fakes000010.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00006-cifar10-subset100-cifar-kimg10-batch4/fakes_init.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00006-cifar10-subset100-cifar-kimg10-batch4/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00006-cifar10-subset100-cifar-kimg10-batch4/network-snapshot-000000.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00006-cifar10-subset100-cifar-kimg10-batch4/network-snapshot-000010.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00006-cifar10-subset100-cifar-kimg10-batch4/reals.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00006-cifar10-subset100-cifar-kimg10-batch4/stats.jsonl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00006-cifar10-subset100-cifar-kimg10-batch4/training_options.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00007-cifar10-subset100-cifar-gamma15-kimg10/fakes000000.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00007-cifar10-subset100-cifar-gamma15-kimg10/fakes000010.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00007-cifar10-subset100-cifar-gamma15-kimg10/fakes_init.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00007-cifar10-subset100-cifar-gamma15-kimg10/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00007-cifar10-subset100-cifar-gamma15-kimg10/network-snapshot-000000.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00007-cifar10-subset100-cifar-gamma15-kimg10/network-snapshot-000010.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00007-cifar10-subset100-cifar-gamma15-kimg10/reals.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00007-cifar10-subset100-cifar-gamma15-kimg10/stats.jsonl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00007-cifar10-subset100-cifar-gamma15-kimg10/training_options.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00008-cifar10-subset100-cifar-gamma20-kimg10/fakes000000.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00008-cifar10-subset100-cifar-gamma20-kimg10/fakes000010.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00008-cifar10-subset100-cifar-gamma20-kimg10/fakes_init.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00008-cifar10-subset100-cifar-gamma20-kimg10/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00008-cifar10-subset100-cifar-gamma20-kimg10/network-snapshot-000000.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00008-cifar10-subset100-cifar-gamma20-kimg10/network-snapshot-000010.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00008-cifar10-subset100-cifar-gamma20-kimg10/reals.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00008-cifar10-subset100-cifar-gamma20-kimg10/stats.jsonl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00008-cifar10-subset100-cifar-gamma20-kimg10/training_options.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00009-cifar10-subset100-cifar-gamma40-kimg10/fakes000000.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00009-cifar10-subset100-cifar-gamma40-kimg10/fakes000010.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00009-cifar10-subset100-cifar-gamma40-kimg10/fakes_init.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00009-cifar10-subset100-cifar-gamma40-kimg10/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00009-cifar10-subset100-cifar-gamma40-kimg10/network-snapshot-000000.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00009-cifar10-subset100-cifar-gamma40-kimg10/network-snapshot-000010.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00009-cifar10-subset100-cifar-gamma40-kimg10/reals.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00009-cifar10-subset100-cifar-gamma40-kimg10/stats.jsonl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00009-cifar10-subset100-cifar-gamma40-kimg10/training_options.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00010-cifar10-subset100-cifar-gamma80-kimg10/fakes000000.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00010-cifar10-subset100-cifar-gamma80-kimg10/fakes000010.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00010-cifar10-subset100-cifar-gamma80-kimg10/fakes_init.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00010-cifar10-subset100-cifar-gamma80-kimg10/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00010-cifar10-subset100-cifar-gamma80-kimg10/network-snapshot-000000.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00010-cifar10-subset100-cifar-gamma80-kimg10/network-snapshot-000010.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00010-cifar10-subset100-cifar-gamma80-kimg10/reals.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00010-cifar10-subset100-cifar-gamma80-kimg10/stats.jsonl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00010-cifar10-subset100-cifar-gamma80-kimg10/training_options.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00011-cifar10-subset100-cifar-kimg10-batch16/fakes000000.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00011-cifar10-subset100-cifar-kimg10-batch16/fakes000010.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00011-cifar10-subset100-cifar-kimg10-batch16/fakes_init.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00011-cifar10-subset100-cifar-kimg10-batch16/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00011-cifar10-subset100-cifar-kimg10-batch16/network-snapshot-000000.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00011-cifar10-subset100-cifar-kimg10-batch16/network-snapshot-000010.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00011-cifar10-subset100-cifar-kimg10-batch16/reals.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00011-cifar10-subset100-cifar-kimg10-batch16/stats.jsonl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00011-cifar10-subset100-cifar-kimg10-batch16/training_options.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00012-cifar10-subset100-cifar-kimg10-batch16-bgcfnc/fakes000000.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00012-cifar10-subset100-cifar-kimg10-batch16-bgcfnc/fakes000010.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00012-cifar10-subset100-cifar-kimg10-batch16-bgcfnc/fakes_init.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00012-cifar10-subset100-cifar-kimg10-batch16-bgcfnc/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00012-cifar10-subset100-cifar-kimg10-batch16-bgcfnc/network-snapshot-000000.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00012-cifar10-subset100-cifar-kimg10-batch16-bgcfnc/network-snapshot-000010.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00012-cifar10-subset100-cifar-kimg10-batch16-bgcfnc/reals.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00012-cifar10-subset100-cifar-kimg10-batch16-bgcfnc/stats.jsonl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00012-cifar10-subset100-cifar-kimg10-batch16-bgcfnc/training_options.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00013-cifar10-subset100-cifar-kimg10-batch16-bg/fakes000000.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00013-cifar10-subset100-cifar-kimg10-batch16-bg/fakes000010.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00013-cifar10-subset100-cifar-kimg10-batch16-bg/fakes_init.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00013-cifar10-subset100-cifar-kimg10-batch16-bg/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00013-cifar10-subset100-cifar-kimg10-batch16-bg/network-snapshot-000000.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00013-cifar10-subset100-cifar-kimg10-batch16-bg/network-snapshot-000010.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00013-cifar10-subset100-cifar-kimg10-batch16-bg/reals.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00013-cifar10-subset100-cifar-kimg10-batch16-bg/stats.jsonl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00013-cifar10-subset100-cifar-kimg10-batch16-bg/training_options.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00014-cifar10-subset100-cifar-kimg10-batch16-bgc/fakes000000.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00014-cifar10-subset100-cifar-kimg10-batch16-bgc/fakes000010.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00014-cifar10-subset100-cifar-kimg10-batch16-bgc/fakes_init.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00014-cifar10-subset100-cifar-kimg10-batch16-bgc/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00014-cifar10-subset100-cifar-kimg10-batch16-bgc/network-snapshot-000000.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00014-cifar10-subset100-cifar-kimg10-batch16-bgc/network-snapshot-000010.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00014-cifar10-subset100-cifar-kimg10-batch16-bgc/reals.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00014-cifar10-subset100-cifar-kimg10-batch16-bgc/stats.jsonl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00014-cifar10-subset100-cifar-kimg10-batch16-bgc/training_options.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00015-cifar10-subset100-cifar-kimg10-batch16-bgcf/fakes000000.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00015-cifar10-subset100-cifar-kimg10-batch16-bgcf/fakes000010.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00015-cifar10-subset100-cifar-kimg10-batch16-bgcf/fakes_init.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00015-cifar10-subset100-cifar-kimg10-batch16-bgcf/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00015-cifar10-subset100-cifar-kimg10-batch16-bgcf/network-snapshot-000000.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00015-cifar10-subset100-cifar-kimg10-batch16-bgcf/network-snapshot-000010.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00015-cifar10-subset100-cifar-kimg10-batch16-bgcf/reals.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00015-cifar10-subset100-cifar-kimg10-batch16-bgcf/stats.jsonl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00015-cifar10-subset100-cifar-kimg10-batch16-bgcf/training_options.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00016-cifar10-subset100-cifar-kimg10-batch16-bgcfn/fakes000000.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00016-cifar10-subset100-cifar-kimg10-batch16-bgcfn/fakes000010.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00016-cifar10-subset100-cifar-kimg10-batch16-bgcfn/fakes_init.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00016-cifar10-subset100-cifar-kimg10-batch16-bgcfn/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00016-cifar10-subset100-cifar-kimg10-batch16-bgcfn/network-snapshot-000000.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00016-cifar10-subset100-cifar-kimg10-batch16-bgcfn/network-snapshot-000010.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00016-cifar10-subset100-cifar-kimg10-batch16-bgcfn/reals.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00016-cifar10-subset100-cifar-kimg10-batch16-bgcfn/stats.jsonl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training-runs/00016-cifar10-subset100-cifar-kimg10-batch16-bgcfn/training_options.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/augment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/loss.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/networks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/training_loop.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2b49zm7YiCAAP19RBWE3hjgJokI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Notification.DisplayName-DoNotAsk-Plugins Suggestion": "有可用的插件建议",
+    "Notification.DoNotAsk-Plugins Suggestion": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/QMDownload/pytorch-CycleGAN-and-pix2pix",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Download\stylegan2-ada-pytorch-main\downloads" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="e5689564-8f33-4b26-8573-4966dcc92aab" name="更改" comment="" />
+      <created>1705463748495</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1705463748495</updated>
+      <workItem from="1705463749543" duration="4653000" />
+      <workItem from="1705476685797" duration="1434000" />
+      <workItem from="1705479893741" duration="31517000" />
+      <workItem from="1705577461648" duration="649000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/stylegan2_ada_pytorch_main$custom_ops.coverage" NAME="custom_ops 覆盖结果" MODIFIED="1705464185047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/torch_utils" />
+    <SUITE FILE_PATH="coverage/stylegan2_ada_pytorch_main$Loss.coverage" NAME="Loss 覆盖结果" MODIFIED="1705570383423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
